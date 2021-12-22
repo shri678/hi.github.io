@@ -1,0 +1,36 @@
+h1 {
+	color: black;
+    font-weight: bold;
+    text-shadow:  0px 0px 5px greenyellow, 0px 3px 5px darkred;
+}
+
+h3{
+    color: rgb(149, 179, 232);
+}
+
+.sport {
+    color: darkblue;
+    margin-top: 100px;
+    font-family: Jazz LET;
+
+}
+
+.def{
+    color: black;
+    font-family: Segoe UI Symbol, Arial, Times New Roman;
+    font-size: 20px;
+    padding:  20px;
+    
+}
+.pic{
+    margin-top: 15px;
+}
+img{
+    float: right;
+    margin: 20px;
+    margin-top: 5px;
+}
+body{
+    background: linear-gradient(to right, skyblue, seagreen);
+}
+
