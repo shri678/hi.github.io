@@ -19,10 +19,6 @@
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
         
-        <!-- Thinking.... -->
-        <link rel="icon" type="image/x-icon" href="/_favicon.ico?v=1.17.0">
-        <link rel="stylesheet" href="https://codepen.io/chriddyp/pen/bWLwgP.css">
-        <!--Thinkings......-->
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
@@ -37,7 +33,44 @@
         <h3> Table of contents:</h3>
         
 
+        
+        
+        <!--Navigation Menu -->
 
+          <nav class="nav">
+    <button type="button" class="nav-close" onclick="toggleNav()">
+      <ion-icon name="close-outline" size="large"></ion-icon>
+    </button>
+    <div class="nav-links-container">
+      <a href="#" class="nav__link">
+        <span class="nav__text">Products</span>
+        <ion-icon name="cube-outline" size="large"></ion-icon>
+      </a>
+      <a href="#" class="nav__link">
+        <span class="nav__text">Locations</span>
+        <ion-icon name="location-outline" size="large"></ion-icon>
+      </a>
+      <a href="#" class="nav__link">
+        <span class="nav__text">Settings</span>
+        <ion-icon name="settings-outline" size="large"></ion-icon>
+      </a>
+      <a href="#" class="nav__link">
+        <span class="nav__text">Contact Us</span>
+        <ion-icon name="call-outline" size="large"></ion-icon>
+      </a>
+    </div>
+  </nav>
+  <main class="main">
+    <button onclick="toggleNav()">Open Navigation</button>
+  </main>
+  <script>
+    function toggleNav() {
+      document.body.classList.toggle("nav-open");
+    }
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
 
         <!-- Table of Contents -->
         <ol id = "TableContents">
@@ -197,28 +230,7 @@
 
         <h3 class = "subtitle" id = "Final">Final Project</h3>
         <hr>
-        <!-- Thinking about this one beginning -->
         
-        <div id="react-entry-point"><div class="_dash-loading">
-                Loading...
-            </div>
-        </div>
-        
-        <footer>
-            <script id="_dash-config" type="application/json">{"url_base_pathname": null, "requests_pathname_prefix": "/", "ui": false, "props_check": false, "show_undo_redo": false, "suppress_callback_exceptions": false, "update_title": "Updating..."}</script>
-            <script src="/_dash-component-suites/dash_renderer/polyfill@7.v1_8_3m1640200897.8.7.min.js"></script>
-            <script src="/_dash-component-suites/dash_renderer/react@16.v1_8_3m1640200897.14.0.min.js"></script>
-            <script src="/_dash-component-suites/dash_renderer/react-dom@16.v1_8_3m1640200897.14.0.min.js"></script>
-            <script src="/_dash-component-suites/dash_renderer/prop-types@15.v1_8_3m1640200897.7.2.min.js"></script>
-            <script src="/_dash-component-suites/dash_html_components/dash_html_components.v1_1_1m1640200897.min.js"></script>
-            <script src="/_dash-component-suites/dash_core_components/dash_core_components.v1_13_0m1640200897.min.js"></script>
-            <script src="/_dash-component-suites/dash_core_components/dash_core_components-shared.v1_13_0m1640200897.js"></script>
-            <script src="/_dash-component-suites/dash_renderer/dash_renderer.v1_8_3m1640200897.min.js"></script>
-            <script id="_dash-renderer" type="application/javascript">var renderer = new DashRenderer();</script>
-        </footer>
-        
-        
-        <!--Thinking abt this one end -->
     </body>
 
 </html>
