@@ -109,7 +109,7 @@ li a:hover, .dropdown:hover .dropbtn {
   background-color: seagreen;
 }
 
-li.dropdown {
+li .dropdown {
   display: inline-block;
 }
 
