@@ -86,7 +86,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  /*overflow: hidden;*/
   background-color: #3764A5;
   font-family: Segoe UI Symbol, Arial, Times New Roman;
 }
