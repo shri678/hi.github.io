@@ -131,7 +131,7 @@ li.dropdown {
   font-family: Segoe UI Symbol, Arial, Times New Roman;
 }
 
-.dropdown-content a:hover {background-color: seagreen;}
+.dropdown-content a:hover {background-color: white;}
 
 .dropdown:hover .dropdown-content {
   display: block;
