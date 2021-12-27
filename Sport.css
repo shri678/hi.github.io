@@ -2,16 +2,18 @@ h1 {
 	color: black;
     font-weight: bold;
     text-shadow:  0px 0px 5px greenyellow, 0px 3px 5px darkred;
+    font-family: Segoe UI Symbol, Arial, Times New Roman;
 }
 
 h3{
     color: rgb(149, 179, 232);
+    font-family: Segoe UI Symbol, Arial, Times New Roman;
 }
 
 .subtitle {
     color: darkblue;
     margin-top: 100px;
-    font-family: Jazz LET;
+    font-family: Segoe UI Symbol, Arial, Times New Roman;
 
 }
 
@@ -106,7 +108,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: seagreen;
+  background-color: white;
 }
 
 li .dropdown {
