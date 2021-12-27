@@ -80,16 +80,18 @@ html, body {
         top: 0.0%;
 }
 
+
+
+.active {
+  background-color: #04AA6D;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: sticky;
-  position: -webkit-sticky; /* Safari */
-  top: 0;
-  width: 100%;
 }
 
 li {
@@ -97,7 +99,7 @@ li {
 }
 
 li a, .dropbtn {
-  display: block;
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -121,11 +123,6 @@ li.dropdown {
   z-index: 1;
 }
 
-
-.active {
-  background-color: #04AA6D;
-}
-
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -134,9 +131,7 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {
-	background-color: #f1f1f1;
-}
+.dropdown-content a:hover {background-color: #f1f1f1;}
 
 .dropdown:hover .dropdown-content {
   display: block;
