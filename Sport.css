@@ -142,3 +142,67 @@ li .dropdown {
 .active {
   background-color: seagreen;
 }
+
+
+
+
+/*Adding link to Final project */
+
+
+
+.starbucks-heat {
+        width: 2vw;
+        height: 65%;
+    }
+
+.starbucks-heat-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.starbucks-heat {
+    display: inline-flex;
+    margin: 7.5%;
+    width: 5vw;
+    height: 65%;
+    border-radius: 10em;
+    background: var(--white);
+}
+
+.white {
+    color: var(--white);
+}
+
+
+.exp-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.evaporate-1 {
+    animation: 2.0s ease-in-out infinite starbucks-evaporate;
+    animation-delay: 0s;
+}
+.evaporate-2 {
+    animation: 2.0s ease-in-out infinite starbucks-evaporate;
+    animation-delay: 0.5s;
+}
+.evaporate-3 {
+    animation: 2.0s ease-in-out infinite starbucks-evaporate;
+    animation-delay: 1.0s;
+}
+
+
+
