@@ -204,5 +204,8 @@ li .dropdown {
     animation-delay: 1.0s;
 }
 
-
-
+.logo {
+    position: relative;
+    margin-bottom: 1.5em;
+    height: 17.5%;
+}
