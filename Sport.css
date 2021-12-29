@@ -211,11 +211,7 @@ li .dropdown {
     height: 17.5%;
 }
 
-hr {
+.border {
   border: 10px solid green;
   border-radius: 5px;
-}
-
-Name {
-    font-size: 40px;
 }
