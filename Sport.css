@@ -94,6 +94,11 @@ html, body {
         top: 0.0%;
 }
 
+.graphs {
+	width: 70.0%;
+        height: 100.0%;
+	margin: auto;
+}
 
 
 ul {
@@ -230,3 +235,5 @@ li .dropdown {
   border-radius: 5px;
   width: 75%;
 }
+
+
