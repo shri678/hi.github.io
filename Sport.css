@@ -90,7 +90,7 @@ ul {
   background-color: #3764A5; */
   background-color: white;
   font-family: Segoe UI Symbol, Arial, Times New Roman;
-  font-size: 20px;
+  font-size: 10px;
 }
 
 li {
@@ -105,7 +105,7 @@ li a, .dropbtn {
   text-decoration: none;
   background-color: white;
   font-family: Segoe UI Symbol, Arial, Times New Roman;
-  font-size: 20px;
+  font-size: 10px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -212,6 +212,7 @@ li .dropdown {
 }
 
 .border {
-  border: 10px solid green;
-  border-radius: 5px;
+  border: 5px darkblue;
+  border-radius: 2px;
+  width: 75%;
 }
