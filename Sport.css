@@ -13,6 +13,7 @@ h3{
 .subtitle {
     color: darkblue;
     margin-top: 100px;
+    margin-left: 40px; 
     font-family: Segoe UI Symbol, Arial, Times New Roman;
 
 }
@@ -89,6 +90,7 @@ ul {
   background-color: #3764A5; */
   background-color: white;
   font-family: Segoe UI Symbol, Arial, Times New Roman;
+  font-size: 20px;
 }
 
 li {
@@ -103,10 +105,11 @@ li a, .dropbtn {
   text-decoration: none;
   background-color: white;
   font-family: Segoe UI Symbol, Arial, Times New Roman;
+  font-size: 20px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: grey;
+  background-color: antiquewhite;
 }
 
 li .dropdown {
@@ -116,8 +119,8 @@ li .dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: grey;
-  min-width: 160px;
+  background-color: anitiquewhite;
+  min-width: 140px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -131,7 +134,7 @@ li .dropdown {
   font-family: Segoe UI Symbol, Arial, Times New Roman;
 }
 
-.dropdown-content a:hover {background-color: grey;}
+.dropdown-content a:hover {background-color: antiquewhite;}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -209,11 +212,9 @@ li .dropdown {
 }
 
 hr {
-    height:20px;
-    border-width:0;
-    color:darkblue;
-    background-color:darkblue;
     width: 75%;
+    border: 10px darkblue;
+    border-radius: 5px;	
 }
 
 Name {
