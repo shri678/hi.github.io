@@ -209,9 +209,9 @@ li .dropdown {
 }
 
 hr {
-    height:2px;
+    height:10px;
     border-width:0;
-    color:gray;
+    color:darkblue;
     background-color:gray;
     width: 75%;
 }
