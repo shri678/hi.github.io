@@ -13,8 +13,15 @@ h3{
 
 .sentence {
     font-family: Segoe UI Symbol, Arial, Times New Roman;
-    margin-left: 40px;
+    margin-left: 80px;
     color: black;
+    font-size: 20px;
+}
+
+.headline {
+    font-family: Segoe UI Symbol, Arial, Times New Roman;
+    margin-left: 40px;
+    color: green;
     font-size: 20px;
 }
 
