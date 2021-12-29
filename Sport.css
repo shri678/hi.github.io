@@ -95,7 +95,7 @@ html, body {
 
 .graphs {
 	width: 50.0%;
-        height: 100.0%;
+        height: 75.0%;
 	display: inline-block;
 }
 .folium-map {
