@@ -97,6 +97,10 @@ html, body {
 	width: 50.0%;
         height: 100.0%;
 }
+.folium-map {
+	width: 70.0%;
+	margin:auto;
+}
 
 
 ul {
