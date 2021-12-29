@@ -11,9 +11,11 @@ h3{
     font-family: Segoe UI Symbol, Arial, Times New Roman;
 }
 
-p {
+.sentence {
     font-family: Segoe UI Symbol, Arial, Times New Roman;
     margin-left: 40 px;
+    color: blue;
+    font-size: 20px;
 }
 
 .subtitle {
