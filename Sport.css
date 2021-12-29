@@ -212,9 +212,8 @@ li .dropdown {
 }
 
 hr {
-    width: 75%;
-    border: 10px darkblue;
-    border-radius: 5px;	
+  border: 10px solid green;
+  border-radius: 5px;
 }
 
 Name {
