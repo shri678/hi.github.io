@@ -1,8 +1,9 @@
 h1 {
-    color: darkblue;
+    color: blue;
     font-weight: bold;
     text-shadow:  0px 0px 5px greenyellow, 0px 3px 5px darkred;
     font-family: Segoe UI Symbol, Arial, Times New Roman;
+    margin-left: 40 px;
 }
 
 h3{
@@ -10,8 +11,13 @@ h3{
     font-family: Segoe UI Symbol, Arial, Times New Roman;
 }
 
+p {
+    font-family: Segoe UI Symbol, Arial, Times New Roman;
+    margin-left: 40 px;
+}
+
 .subtitle {
-    color: darkblue;
+    color: blue;
     margin-top: 100px;
     margin-left: 40px; 
     font-family: Segoe UI Symbol, Arial, Times New Roman;
@@ -48,34 +54,42 @@ body{
 
 
 html, body {
-	width: 100%;height: 100%;margin: 0;padding: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+    	margin-left: 40px; 
 }
     
 
 #map {
-	position:absolute;top:0;bottom:0;right:0;left:0;
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:40px;
 }
 
 #map_e247e02e479e456fb477616fc3af43ff {
         position: relative;
-        width: 90.0%;
-        height: 80.0%;
+        width: 100.0%;
+        height: 100.0%;
         left: 0.0%;
         top: 0.0%;
 }
 
 #map_341bcc23c0a34ae38b33c87e5a95f447 {
         position: relative;
-        width: 90.0%;
-        height: 80.0%;
+        width: 100.0%;
+        height: 100.0%;
         left: 0.0%;
         top: 0.0%;
 }
 
 #map_0b22795ad795468cab183cf618684fbb {
         position: relative;
-        width: 90.0%;
-        height: 80.0%;
+        width: 100.0%;
+        height: 100.0%;
         left: 0.0%;
         top: 0.0%;
 }
@@ -90,7 +104,7 @@ ul {
   background-color: #3764A5; */
   background-color: white;
   font-family: Segoe UI Symbol, Arial, Times New Roman;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 li {
@@ -105,7 +119,7 @@ li a, .dropbtn {
   text-decoration: none;
   background-color: white;
   font-family: Segoe UI Symbol, Arial, Times New Roman;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
