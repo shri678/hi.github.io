@@ -18,6 +18,10 @@ h3{
     font-size: 20px;
 }
 
+.box {
+	display: flex;
+      }
+
 .headline {
     font-family: Segoe UI Symbol, Arial, Times New Roman;
     margin-left: 40px;
