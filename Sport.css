@@ -185,12 +185,12 @@ li .dropdown {
 .dropdown-content a {
   color: black;
 /*  padding: 14px 16px;*/
-  padding: 5px;
+  padding: 6px;
   text-decoration: none;
   display: block;
   text-align: left;
   font-family: Segoe UI Symbol, Arial, Times New Roman;	
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .dropdown-content a:hover {background-color: antiquewhite;}
