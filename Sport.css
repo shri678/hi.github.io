@@ -152,9 +152,9 @@ html {
 ul {
   list-style-type: none;
   /*margin: 0;
-  padding: 0;
+  padding: 0;*/
   overflow: hidden;
-  background-color: #3764A5; */
+  /*background-color: #3764A5; */
   background-color: white;
   font-family: Segoe UI Symbol, Arial, Times New Roman;
   font-size: 20px;
