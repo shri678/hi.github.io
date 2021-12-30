@@ -13,10 +13,10 @@ h3{
 
 .sentence {
     font-family: Segoe UI Symbol, Arial, Times New Roman;
-    margin-left: 80px;
+    margin-left: 20px;
     color: black;
-    font-size: 20px;
-    line-height: 2;
+    font-size: 10px;
+    line-height: 1.5;
 }
 
 .box {
@@ -25,10 +25,10 @@ h3{
 
 .headline {
     font-family: Segoe UI Symbol, Arial, Times New Roman;
-    margin-left: 40px;
+    margin-left: 10px;
     color: green;
     font-size: 20px;
-    line-height: 2.5;
+    line-height: 2;
 }
 
 .center{
@@ -61,14 +61,11 @@ h3{
 }
 */
 
-img{
-    float: right;
-    margin: 20px;
-    margin-top: 5px;
+img {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;	
 }
-
-
-
 
 body {
     background: white;
@@ -150,13 +147,13 @@ li {
 
 li a, .dropbtn {
   display: inline-block;
-  color: blue;
-  text-align: center;
+  color: black;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
   background-color: white;
   font-family: Segoe UI Symbol, Arial, Times New Roman;
-  font-size: 20px;
+  font-size: 10px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
