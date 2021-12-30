@@ -178,7 +178,7 @@ li .dropdown {
   position: absolute;
   background-color: anitiquewhite;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+/*  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
   z-index: 1;
 }
 
@@ -189,7 +189,8 @@ li .dropdown {
   text-decoration: none;
   display: block;
   text-align: left;
-  font-family: Segoe UI Symbol, Arial, Times New Roman;
+  font-family: Segoe UI Symbol, Arial, Times New Roman;	
+  font-size: 14px;
 }
 
 .dropdown-content a:hover {background-color: antiquewhite;}
