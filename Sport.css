@@ -83,8 +83,8 @@ body {
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    overflow: hidden;
-    padding-top: 44px;
+    /*overflow: hidden;*/
+    padding-top: 100px;
     padding-bottom: 25px;
 }
 
@@ -92,7 +92,7 @@ header {
     background: white;
     margin-top: 10px;
     margin-left: 20px;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 
 html {
@@ -100,9 +100,9 @@ html {
 	height: 100%;
 	margin-top: 20px;
 	padding: 0; 
-	overflow: hidden;
+	/*overflow: hidden;
     	padding-top: 44px;
-    	padding-bottom: 25px;
+    	padding-bottom: 25px;*/
 }
  
 
